@@ -8,3 +8,9 @@
     background-color: #3051A3;
     color: white;
 }
+
+@media (max-width:400px){
+    .main_container{
+        margin: 15px 20px;
+    }
+}
