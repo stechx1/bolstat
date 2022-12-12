@@ -91,7 +91,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
     return (
-        <Disclosure as="nav" className={`${styles.main_container} bg-white md:px-12 px-4 `}>
+        <Disclosure as="nav" className={`${styles.main_container} ${styles.shadow} bg-white md:px-12 px-4 `}>
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-9xl px-2 sm:px-6 lg:px-8">
