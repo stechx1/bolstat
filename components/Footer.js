@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className='flex justify-between px-16 py-9 shadow-md border'>
+      <div className='flex justify-between px-16 py-9 shadow-md border' style={{zIndex:'10000'}}>
         <div className='flex justify-between gap-8 w-[60%]'>
 
           <div className="flex flex-shrink-0 items-center justify-center gap-2">

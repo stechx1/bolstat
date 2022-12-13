@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import HomeComponent from '../components/Home/HomeComponent'
 import ReviewPanel from '../components/Home/ReviewPanel'
 import Functies from '../components/Home/Functies'
+import Blur from '../components/Blur'
 export default function Home() {
   return (
     <>
@@ -22,6 +23,12 @@ export default function Home() {
       <div className="my-6 text-center">
         <span className=' text-[23px] text-gray-200'>© Copyright 2023 bolstats.nl, alle rechten voorbehouden</span>
       </div>
+
+      <Blur width={'8rem'} height={'28rem'} top={'23%'} left={'91%'} />
+      <Blur width={'8rem'} height={'28rem'} top={'100%'} left={'-6%'} />
+      <Blur width={'8rem'} height={'28rem'} top={'250%'} left={'91%'} />
+      <Blur width={'8rem'} height={'28rem'} top={'330%'} left={'-6%'} />
+
     </>
   )
 }

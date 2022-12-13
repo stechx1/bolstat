@@ -1,4 +1,5 @@
 import React from 'react'
+import Blur from '../components/Blur'
 import DashboardBox from '../components/DashboardBox'
 
 const UserDashboard = () => {
@@ -129,6 +130,11 @@ const UserDashboard = () => {
                     </div>
                 </div>
             </div>
+
+            <Blur width={'4rem'} height={'28rem'} top={'23%'} left={'95%'} />
+            <Blur width={'10rem'} height={'28rem'} top={'60%'} left={'-9%'} />
+            <Blur width={'5rem'} height={'28rem'} top={'150%'} left={'94%'} />
+
         </>
     )
 }

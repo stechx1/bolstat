@@ -1,4 +1,5 @@
 import React from 'react'
+import Blur from '../components/Blur'
 import styles from './auth/Auth.module.css'
 
 const Contact = () => {
@@ -22,6 +23,9 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+        <Blur width={'8rem'} height={'28rem'} top={'23%'} left={'94%'} />
+        <Blur width={'8rem'} height={'28rem'} top={'60%'} left={'-9%'} />
+
     </>
   )
 }

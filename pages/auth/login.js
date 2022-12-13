@@ -1,4 +1,5 @@
 import React from 'react'
+import Blur from '../../components/Blur'
 import styles from './Auth.module.css'
 
 const Login = () => {
@@ -20,6 +21,9 @@ const Login = () => {
                 </div>
             </div>
         </div>
+
+        <Blur width={'8rem'} height={'28rem'} top={'23%'} left={'91%'} />
+        <Blur width={'8rem'} height={'28rem'} top={'60%'} left={'-9%'} />
     </>
   )
 }

@@ -18,7 +18,7 @@ const Functies = () => {
                     <FunctiesBox para={"Bekijk gemakkelijk welke bestellingen je nog moet afhandelen en welke bestellingen verzonden zijn."} />
                     
                 </div>
-                <div className='flex items-center justify-center'>
+                <div className='flex items-center justify-center ' style={{zIndex:"-10"}}>
                     <img src={"/Images/Home/Functies.png"} alt="Functies" className='item-center flex justify-center md:w-full w-[70%]  my-5 md:my-0' />
                 </div>
             </div>
