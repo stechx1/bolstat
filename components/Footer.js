@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className='flex justify-between px-16 py-9 shadow-md border' style={{zIndex:'10000'}}>
-        <div className='flex justify-between gap-8 w-[60%]'>
+      <div className='flex flex-col md:flex-row gap-12 md:gap-0 justify-between px-16 py-9 shadow-md border' style={{zIndex:'10000'}}>
+        <div className='flex justify-between w-[60%] flex-col md:flex-row gap-12 md:gap-8'>
 
           <div className="flex flex-shrink-0 items-center justify-center gap-2">
             <img className="block h-4 w-auto " src="/Images/logo.svg" alt="Logo" />

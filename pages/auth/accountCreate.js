@@ -21,8 +21,8 @@ const AccountCreate = () => {
                 </div>
             </div>
 
-            <Blur width={'8rem'} height={'28rem'} top={'23%'} left={'91%'} />
-            <Blur width={'8rem'} height={'28rem'} top={'60%'} left={'-9%'} />
+            <Blur  width={'8rem'} height={'28rem'} top={'23%'} left={'91%'} />
+            <Blur  width={'8rem'} height={'28rem'} top={'60%'} left={'-9%'} />
 
         </>
     )
