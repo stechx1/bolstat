@@ -3,7 +3,7 @@ import styles from './auth/Auth.module.css'
 
 const SubscribeCompleted = () => {
     return (
-        <div className='flex items-center justify-center my-3'>
+        <div className='flex items-center justify-center my-5'>
             <div className={`flex flex-col rounded-lg w-[607px] text-white px-28 ${styles.shadow} ${styles.gradientBG}`}>
                 <h1 className='my-4 font-bold text-xl underline text-center'>Abonnement geactiveerd</h1>
                 <div className='flex flex-col gap-4'>
