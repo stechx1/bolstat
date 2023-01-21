@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "npm run build && next export -o _static",
     "start": "next start",
     "lint": "next lint"
   },
@@ -13,9 +14,11 @@
     "@heroicons/react": "^2.0.13",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
+    "firebase": "^9.15.0",
     "next": "13.0.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-toastify": "^9.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
