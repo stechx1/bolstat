@@ -1,7 +1,4 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import FeatureBox from '../components/FeatureBox'
-import styles from '../styles/Home.module.css'
 import HomeComponent from '../components/Home/HomeComponent'
 import ReviewPanel from '../components/Home/ReviewPanel'
 import Functies from '../components/Home/Functies'
