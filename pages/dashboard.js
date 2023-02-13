@@ -123,9 +123,10 @@ const UserDashboard = () => {
   };
   return (
     <>
-      <div className="mx-3">
+      <div className="container-fluid">
         <div className="row flex justify-between">
           <div className="col-md-4 col-sm-12 flex flex-col ">
+            
             <div className="flex gap-4 items-center justify-center md:my-0 my-4">
               <img
                 src="/Images/bell.png"
@@ -140,7 +141,8 @@ const UserDashboard = () => {
               </span>
             </div>
           </div>
-          <div className="col-md-4 col-sm-12 flex gap-4 items-center justify-center md:my-0 my-4">
+
+          <div className="col-md-4 col-sm-12 flex gap-4 items-center pl-5 md:pl-0 justify-center md:my-0 my-4">
             <img
               src="/Images/bell.png"
               alt="bell"
@@ -152,7 +154,8 @@ const UserDashboard = () => {
               Abonnement {userData?.StatusSubscription ? "" : " niet "} actief
             </span>
           </div>
-          <div className="col-md-4 col-sm-12 flex gap-4 items-center justify-center md:my-0 my-4">
+
+          <div className="col-md-4 col-sm-12 flex gap-4 items-center pr-[4.8rem] md:pr-0 justify-center md:my-0 my-4">
             <img
               src="/Images/bell.png"
               alt="bell"
@@ -162,6 +165,7 @@ const UserDashboard = () => {
             />
             <span>App toegang</span>
           </div>
+
         </div>
       </div>
 
@@ -318,7 +322,7 @@ const UserDashboard = () => {
 
         {/* SECOND ROW */}
 
-        <div className="row gap-5 my-10">
+        <div className="row gap-5 my-10 items-center justify-center">
           <div className="col-md-4 col-sm-12 w-[390px] h-[596px] shadow-lg d-flex flex-col justify-between py-5 rounded">
             <div className="">
               <h1 className="text-[16px] font-bold text-center my-3">
@@ -406,9 +410,9 @@ const UserDashboard = () => {
         </div>
       </div>
 
-      <Blur width={"4rem"} height={"28rem"} top={"23%"} left={"95%"} />
+      <Blur width={"4rem"} height={"28rem"} top={"23%"} left={"90%"} />
       <Blur width={"10rem"} height={"28rem"} top={"60%"} left={"-9%"} />
-      <Blur width={"5rem"} height={"28rem"} top={"150%"} left={"94%"} />
+      <Blur width={"5rem"} height={"28rem"} top={"120%"} left={"90%"} />
     </>
   );
 };

@@ -15,9 +15,14 @@
 .background:hover{
     color: white;
 }
-
-@media (max-width:400px){
+@media (max-width:860px) {
     .main_container{
         margin: 15px 20px;
+    }
+}
+
+@media (max-width:400px) {
+    .main_container{
+        margin: 15px 10px;
     }
 }

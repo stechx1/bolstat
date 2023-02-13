@@ -64,19 +64,19 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="flex md:flex-row flex-col items-center justify-center my-20 gap-5">
+      <div className="flex md:flex-row flex-col items-center justify-center my-20 gap-5 sm:px-0 px-2">
         <div className="flex">
           <img src="/Images/contact.png" alt="imgs" className="" />
         </div>
         <div
-          className={`flex flex-col items-center rounded-lg  px-4 ${styles.shadow}`}
+          className={`flex flex-col items-center rounded-lg sm:w-fit w-[100%] px-4  ${styles.shadow}`}
         >
           <h1 className="my-4 font-bold text-xl underline">CONTACT OPNEMEN</h1>
           <label className="my-3" htmlFor="name">
             Naam
           </label>
           <input
-            className="bg-[#F0F1F4] w-[400.58px] p-2 h-[43.12px] rounded-md"
+            className="bg-[#F0F1F4] sm:w-[400.58px] w-[100%] p-2 h-[43.12px] rounded-md"
             type="name"
             onChange={handleChange}
             name="name"
@@ -86,7 +86,7 @@ const Contact = () => {
             E-mail
           </label>
           <input
-            className="bg-[#F0F1F4] w-[400.58px] p-2 h-[43.12px] rounded-md"
+            className="bg-[#F0F1F4] sm:w-[400.58px] w-[100%] p-2 h-[43.12px] rounded-md"
             type="email"
             onChange={handleChange}
             name="email"
@@ -97,14 +97,14 @@ const Contact = () => {
           </label>
           <textarea
             style={{ resize: "none" }}
-            className="bg-[#F0F1F4] p-2 w-[401px] h-[173px] rounded-md"
+            className="bg-[#F0F1F4] p-2 sm:w-[401px] w-[100%] h-[173px] rounded-md"
             name="message"
             id="Jouw bericht"
             onChange={handleChange}
           ></textarea>
           <div className="flex flex-col my-5 items-center ">
             <button
-              className={`w-[283.47px] h-[46px] ${
+              className={`sm:w-[283.47px] w-[100px] h-[46px] ${
                 !isLoading ? "bg-[#3051A3]" : "bg-[#888]"
               } rounded-3xl text-white`}
               onClick={handleSubmit}
@@ -115,7 +115,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Blur width={"8rem"} height={"28rem"} top={"23%"} left={"94%"} />
+      <Blur width={"8rem"} height={"28rem"} top={"23%"} left={"90%"} />
       <Blur width={"8rem"} height={"28rem"} top={"60%"} left={"-9%"} />
     </>
   );

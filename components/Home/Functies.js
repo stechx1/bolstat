@@ -3,7 +3,7 @@ import FunctiesBox from './FunctiesBox'
 
 const Functies = () => {
     return (
-        <>
+        <div className='sm:px-0 px-3'>
             <div className='flex flex-col items-center justify-center'>
                 <span className='text-gray-400 text-lg	'>BolStats</span>
                 <h1 className='text-[#3051A3] text-3xl font-bold'>Functies</h1>
@@ -22,7 +22,7 @@ const Functies = () => {
                     <img src={"/Images/Home/Functies.png"} alt="Functies" className='item-center flex justify-center md:w-full w-[70%]  my-5 md:my-0' />
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

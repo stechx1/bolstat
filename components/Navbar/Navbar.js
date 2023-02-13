@@ -23,6 +23,12 @@ export default function Navbar() {
       current: router.pathname === "/contact",
     },
     {
+      name: "InLoggen",
+      href: "/auth/login",
+      current: router.pathname === "/auth/login",
+      invisible: isLoggedIn(),
+    },
+    {
       name: "Dashboard",
       href: "/dashboard",
       current: router.pathname === "/dashboard",
@@ -32,12 +38,7 @@ export default function Navbar() {
       href: "/subscribe",
       current: router.pathname == "/subscribe",
     },
-    {
-      name: "InLoggen",
-      href: "/auth/login",
-      current: router.pathname === "/auth/login",
-      invisible: isLoggedIn(),
-    },
+    
   ];
   return (
     <Disclosure
@@ -82,9 +83,10 @@ export default function Navbar() {
                       <Link
                         key={item.name}
                         href={item.href}
+                        
                         className={classNames(
-                          item.current ? styles.background : "text-gray-400",
-                          " px-3 md:px-1 py-2 rounded-md text-sm font-small"
+                          item.name === 'Abonneren' ? styles.background : "text-gray-400",
+                          " px-1 md:px-3 py-2 rounded-md text-sm font-small"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -116,10 +118,10 @@ export default function Navbar() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current
+                    item.name === 'Abonneren'
                       ? styles.background
                       : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                    "block px-3 py-2 rounded-md text-base font-medium"
+                    "block px-1 md:px-3 py-2 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
                 >
