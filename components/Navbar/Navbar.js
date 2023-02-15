@@ -68,8 +68,8 @@ export default function Navbar() {
                     alt="Logo"
                   />
                   <img
-                    className="block h-7 mt-1 w-auto "
-                    src="/Images/BolStats.png"
+                    className="block h-8 w-auto "
+                    src="/Images/BolStats.svg"
                     alt="Name"
                   />
                 </div>
